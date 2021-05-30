@@ -21,7 +21,7 @@ def skpkGen():
 
 def keysBoth():
     print("This is for private testing purposes only, use at your own risk!")
-    print("this function will generate an address that is compatible both with the main client and with MyMonero")
+    print("this function will generate an address that is compatible both with the main client and with MyMKEcoin")
     print("shen noether- mrl")
     print(" ")
     while True:

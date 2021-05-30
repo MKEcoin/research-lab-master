@@ -1,6 +1,6 @@
 [2018-03-12 10:46:28] <sarang> A businessperson told me they were the answer to problems
 [2018-03-12 10:46:37] <sarang> How else will we reach consensus?
-[2018-03-12 10:47:07] <moneromooo> You just obey your master(node).
+[2018-03-12 10:47:07] <MKEcoinmooo> You just obey your master(node).
 [2018-03-12 10:49:38] <endogenic> but how will i know who my master is if i am not a master
 [2018-03-12 10:49:50] <endogenic> dun dun dunnnnnnn
 [2018-03-12 10:56:19] <suraeNoether> no one is a master, everyone is flawed, the big lebowski is the latest incarnation of Buddha, etc etc
@@ -42,12 +42,12 @@
 [2018-03-12 11:09:15] <endogenic> sarang: right i suppose i'm thinking more from the security and cracking standpoint .. like, can we confirm what % of data input fuzzing we've done and where / if / how the code fails
 [2018-03-12 11:09:16] <endogenic> etc
 [2018-03-12 11:09:31] <suraeNoether> where they aren't providing bug bounties for the actual library, but for the unit test suite: if you can upload a new unit test that the current system fails, and yet still passes all current unit tests, you get the bounty
-[2018-03-12 11:09:38] <sarang> That's more of a question for moneromooo I think
+[2018-03-12 11:09:38] <sarang> That's more of a question for MKEcoinmooo I think
 [2018-03-12 11:09:47] <endogenic> that sounds interesting surae
 [2018-03-12 11:09:56] <suraeNoether> it incentivizes things very nicely
 [2018-03-12 11:10:03] <suraeNoether> but it requires a really great test suite
 [2018-03-12 11:10:09] <sarang> yes indeed
-[2018-03-12 11:10:27] <moneromooo> I don't think we can easily determine a percentage of inputs for fuzzing.
+[2018-03-12 11:10:27] <MKEcoinmooo> I don't think we can easily determine a percentage of inputs for fuzzing.
 [2018-03-12 11:10:41] <endogenic> well that was just one example
 [2018-03-12 11:10:50] <endogenic> i cant take responsibility to define all the jobs an expert cracker would do :P
 [2018-03-12 11:11:15] <suraeNoether> if we are going to start putting money into auditors, then we should consider putting a proportion of that toward beefing up our test suites. perhaps require that auditors propose new unit tests, or something along those lines, in addition to a thumbs up/down and a list of recommended changes
@@ -72,9 +72,9 @@
 [2018-03-12 11:13:00] <rehrar> it is when my coding is 1/10 :D
 [2018-03-12 11:13:41] <sarang> Any questions on the current audit that anyone has?
 [2018-03-12 11:13:53] <sarang> Kudelski will be the first to go
-[2018-03-12 11:13:54] <moneromooo> When does the C++ based one start ?
+[2018-03-12 11:13:54] <MKEcoinmooo> When does the C++ based one start ?
 [2018-03-12 11:14:02] <sarang> They're available this month
-[2018-03-12 11:14:23] <moneromooo> More precisely ?
+[2018-03-12 11:14:23] <MKEcoinmooo> More precisely ?
 [2018-03-12 11:14:47] <sarang> TBD once we sign with them, but I can check on more specific dates if you need them
 [2018-03-12 11:15:55] <sarang> Anything in particular?
 [2018-03-12 11:19:12] <suraeNoether> ok, well
@@ -99,7 +99,7 @@
 [2018-03-12 11:22:37] <sarang> for speedier multiexp
 [2018-03-12 11:22:53] <sarang> more administrative work lately, unfortunately
 [2018-03-12 11:23:17] <sarang> I submitted a monthly report recently that details other efforts
-[2018-03-12 11:23:42] <sarang> linky linky https://forum.getmonero.org/9/work-in-progress/89005/funding-for-sarang-at-mrl-for-q1-2018?page=&noscroll=1#post-94324
+[2018-03-12 11:23:42] <sarang> linky linky https://forum.getMKEcoin.org/9/work-in-progress/89005/funding-for-sarang-at-mrl-for-q1-2018?page=&noscroll=1#post-94324
 [2018-03-12 11:25:05] <suraeNoether> any other questions for sarang?
 [2018-03-12 11:25:28] <suraeNoether> I'd like to remind the crowd that sarang's FFS funding round I believe has been posted, although I'm not sure if it's moved to Funding Required yet
 [2018-03-12 11:26:18] <rehrar> There's quite a few things that need to be moved to funding required
@@ -125,7 +125,7 @@
 [2018-03-12 11:32:08] <suraeNoether> i feel like folks have a lot of questions about MAGIC, so I'll ask if anyone has any questions
 [2018-03-12 11:33:37] <sarang> Question I've seen is: what types of things will it fund, and how will they be determined?
 [2018-03-12 11:34:39] <luigi1111w> sarang moved
-[2018-03-12 11:34:43] <luigi1111w> moneromooo ready for funding
+[2018-03-12 11:34:43] <luigi1111w> MKEcoinmooo ready for funding
 [2018-03-12 11:35:11] <rehrar> thanks luigi
 [2018-03-12 11:35:36] <sarang> ty luigi1111w
 [2018-03-12 11:35:38] <suraeNoether> Good question. The overall scope will be: 1) scholarships to undergraduates in the US 2) grants to graduate students in the US, 3) grants to researchers in the US, 4) grants to schools globally with an emphasis on secondary and tertiary education
@@ -198,16 +198,16 @@
 [2018-03-12 11:47:49] <suraeNoether> WELCOME ABOARD REHRAR
 [2018-03-12 11:47:52] <rehrar> I'm working on this myself actually in my free time
 [2018-03-12 11:48:07] <rehrar> We're like the second worst in the nation
-[2018-03-12 11:48:41] <suraeNoether> cool email me at surae@getmonero.org so I can get you on a list
+[2018-03-12 11:48:41] <suraeNoether> cool email me at surae@getMKEcoin.org so I can get you on a list
 [2018-03-12 11:48:46] <suraeNoether> okay, lastly
 [2018-03-12 11:48:51] <rehrar> I'm on a lot of NSA lists already, but sure.
 [2018-03-12 11:48:53] <endogenic> yes NM does
 [2018-03-12 11:49:09] <endogenic> rehrar is the only beacon
 [2018-03-12 11:49:11] <rehrar> endogenic came here and saw the people sobbing in the streets
-[2018-03-12 11:50:12] <suraeNoether> okay, lastly: I wanted to talk about how to educate the community about key safety with MoneroV and best practices (currently, I'm not convinced churn is non-negligibly helpful under a very specific threat model)
+[2018-03-12 11:50:12] <suraeNoether> okay, lastly: I wanted to talk about how to educate the community about key safety with MKEcoinV and best practices (currently, I'm not convinced churn is non-negligibly helpful under a very specific threat model)
 [2018-03-12 11:51:30] <rehrar> What about a short one minute video?
 [2018-03-12 11:51:46] <suraeNoether> would be very convenient to link to
-[2018-03-12 11:52:09] <rehrar> We can put it on our soon-to-come media.getmonero.org as well as youtube and stuff
+[2018-03-12 11:52:09] <rehrar> We can put it on our soon-to-come media.getMKEcoin.org as well as youtube and stuff
 [2018-03-12 11:52:09] <suraeNoether> i've been thinking about starting whiteboard youtube videos explaining how cryptocurrencies work. this could be the first one.
 [2018-03-12 11:52:36] <rehrar> suraeNoether, talk with me later about Privacademy.
 [2018-03-12 11:53:10] <nioc> something that would allow an idiot like me to know exactly what to do
@@ -216,7 +216,7 @@
 [2018-03-12 11:53:50] <sarang> OR DON'T
 [2018-03-12 11:53:52] <Osiris1> nice
 [2018-03-12 11:54:01] <nioc> thx
-[2018-03-12 11:54:02] <ArticMine> My concern with this is that we do not end up protecting MoneroV from the claws of the bear
+[2018-03-12 11:54:02] <ArticMine> My concern with this is that we do not end up protecting MKEcoinV from the claws of the bear
 [2018-03-12 11:54:05] <suraeNoether> nioc, looks to me like you're a pretty smart fella, if the past few years have shown us anything about anticipating change. :P ok. Does nayone have any questions, concerns, comments? I'll be posting my next funding request this afternoon. I have a hard time gauging the mood of an IRC chat room
 [2018-03-12 11:54:19] <suraeNoether> ArticMine: care to elaborate?
 [2018-03-12 11:54:26] <endogenic> i heard nioc is a cabbage
@@ -224,17 +224,17 @@
 [2018-03-12 11:54:28] <sarang> I don't have a good sense for how many users will fall for V
 [2018-03-12 11:55:01] → rpitricker0 joined (~rpitricke@unaffiliated/somewhatclueless)
 [2018-03-12 11:55:02] → somewhatclueless joined (~somewhatc@unaffiliated/somewhatclueless)
-[2018-03-12 11:55:11] <ArticMine> Basically i see MoneroV as an economic attack. If nobody claims their MoneroV then it price will be significantly inflated
+[2018-03-12 11:55:11] <ArticMine> Basically i see MKEcoinV as an economic attack. If nobody claims their MKEcoinV then it price will be significantly inflated
 [2018-03-12 11:55:26] → nickman70 joined (~nickman70@unaffiliated/somewhatclueless)
-[2018-03-12 11:56:48] <ArticMine> So we need a process for people to claim, their MoneroV safely and without impacting their own and other's privacy and to be blunt at the appropriate time dump the MoneroV on the market
+[2018-03-12 11:56:48] <ArticMine> So we need a process for people to claim, their MKEcoinV safely and without impacting their own and other's privacy and to be blunt at the appropriate time dump the MKEcoinV on the market
 [2018-03-12 11:57:13] <ArticMine> That is where the claws of the bear come in
 [2018-03-12 11:57:45] <sarang> What do you mean ArticMine? Spending an existing output on the V chain with random ring is immediately deanon
 [2018-03-12 11:57:58] <sarang> and contributes to the eventual deanon of your ringmates
 [2018-03-12 11:58:25] <rehrar> I see what he's saying though. If not a lot of people claim theirs, then it's a lot of immediate 'holders' which might artificalily inflate the price
 [2018-03-12 11:58:30] <ArticMine> The only way I can see this working is a spend on both chains with a significant number of overlapping rings
-[2018-03-12 11:58:33] <rehrar> which in turn, might make it seem like MoneroV was somewhat successful
+[2018-03-12 11:58:33] <rehrar> which in turn, might make it seem like MKEcoinV was somewhat successful
 [2018-03-12 11:58:47] <rehrar> which also in turn might make other people try to do something similar with MKEcoin
-[2018-03-12 11:59:28] <ArticMine> If the price of MoneroV crashes then this becomes a powerful deterrent for the future
+[2018-03-12 11:59:28] <ArticMine> If the price of MKEcoinV crashes then this becomes a powerful deterrent for the future
 [2018-03-12 11:59:47] <suraeNoether> ArticMine: i disagree. airdrops are designed to crash like that
 [2018-03-12 11:59:48] <sarang> Tough part is that a given user might not care about their transaction being deanon. But it's convincing them that it contributes to others that's trickyy
 [2018-03-12 11:59:54] <suraeNoether> they aren't designed for egalitarian long-term pegs
@@ -243,7 +243,7 @@
 [2018-03-12 12:00:26] <sarang> And their code needs to support it
 [2018-03-12 12:00:30] <ArticMine> It is but trike to do
 [2018-03-12 12:00:31] <sarang> they've shown they don't GAF
-[2018-03-12 12:01:05] <ArticMine> Then we will have to release a patched Monerov
+[2018-03-12 12:01:05] <ArticMine> Then we will have to release a patched MKEcoinv
 [2018-03-12 12:01:36] <ArticMine> It does not have to be "official"
 [2018-03-12 12:01:56] <sarang> One idea I like is making it easier to fork the MKEcoin codebase and blockchain safely
 [2018-03-12 12:02:08] <rehrar> *shrug* I may be thinking a bit casually here, but since this is the first time something like this is happening, and we're already going to be getting our upped ringsize before the fork, I think we can somewhat safely wait this one out and see how it plays
@@ -253,21 +253,21 @@
 [2018-03-12 12:02:41] <suraeNoether> or if they could rather
 [2018-03-12 12:03:07] <ArticMine> By the way the network effect is less because of spent RingCT ouputs that will not be compromised
 [2018-03-12 12:03:43] <rehrar> Alright, I gotta split. Thanks for the meeting. Catch you guys later
-[2018-03-12 12:03:46] <Olufunmilayo> ArticMine, what good would a patched monerov be if the core team is not behind monerov? Also, suraeNoether, time would also be a factor yes? both have to be done simultaneously
+[2018-03-12 12:03:46] <Olufunmilayo> ArticMine, what good would a patched MKEcoinv be if the core team is not behind MKEcoinv? Also, suraeNoether, time would also be a factor yes? both have to be done simultaneously
 [2018-03-12 12:03:46] <ArticMine> The trouble is that the same keys are used on both chains
 [2018-03-12 12:04:27] ⇐ rpitricker0 quit (~rpitricke@unaffiliated/somewhatclueless): Ping timeout: 240 seconds
-[2018-03-12 12:04:58] <ArticMine> It will allow those who wish to claim and sell their MoneroV to do so safely.
+[2018-03-12 12:04:58] <ArticMine> It will allow those who wish to claim and sell their MKEcoinV to do so safely.
 [2018-03-12 12:05:10] <suraeNoether> oh no the double hash doesn't work unless all previous ring sigs do it that way. bah.
 [2018-03-12 12:05:31] <ArticMine> Not all but enough to provide a good mix
 [2018-03-12 12:05:49] ⇐ msvb-lab quit (~michael@x55b54289.dyn.telefonica.de): Ping timeout: 265 seconds
 [2018-03-12 12:07:35] <ArticMine> and that means pre fork mixins will only work
-[2018-03-12 12:07:51] <Olufunmilayo> ArticMine, you will then have two competing versions of monerov competing against each other. I do see the benefit but *shrug*
-[2018-03-12 12:08:03] <suraeNoether> okay, well, unless folks have more questions or suggestions, i think our best bet is simply to put out a video that says "don't claim your MoneroV, here is why."
-[2018-03-12 12:08:20] <ArticMine> No the patch can be compatible with the MoneroV consensus
-[2018-03-12 12:08:24] <suraeNoether> because the math to patch monerov or to protect MKEcoin isn't obvious to me right now
+[2018-03-12 12:07:51] <Olufunmilayo> ArticMine, you will then have two competing versions of MKEcoinv competing against each other. I do see the benefit but *shrug*
+[2018-03-12 12:08:03] <suraeNoether> okay, well, unless folks have more questions or suggestions, i think our best bet is simply to put out a video that says "don't claim your MKEcoinV, here is why."
+[2018-03-12 12:08:20] <ArticMine> No the patch can be compatible with the MKEcoinV consensus
+[2018-03-12 12:08:24] <suraeNoether> because the math to patch MKEcoinv or to protect MKEcoin isn't obvious to me right now
 [2018-03-12 12:08:53] <ArticMine> I am not sure if there is a solution
 [2018-03-12 12:09:10] <iDunk> It's mooo's code to make it use the ringdb, AFAIUI.
-[2018-03-12 12:09:16] <Olufunmilayo> suraeNoether, only other thing would be to I guess track monerov tx's to see just how bad it is haha
+[2018-03-12 12:09:16] <Olufunmilayo> suraeNoether, only other thing would be to I guess track MKEcoinv tx's to see just how bad it is haha
 [2018-03-12 12:09:27] <sarang> We will
 [2018-03-12 12:09:45] <suraeNoether> Okay, well
 [2018-03-12 12:09:47] <suraeNoether> good meeting everyone

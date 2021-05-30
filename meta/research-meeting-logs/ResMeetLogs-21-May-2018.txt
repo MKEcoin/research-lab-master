@@ -1,4 +1,4 @@
-﻿[2018-05-21 11:01:06] <sarang> Let's begin the meetin
+[2018-05-21 11:01:06] <sarang> Let's begin the meetin
 [2018-05-21 11:01:29] <suraeNoether> sure
 [2018-05-21 11:01:33] <rehrar> ye
 [2018-05-21 11:01:36] <suraeNoether> i have a list of stuff i want to bring up
@@ -62,7 +62,7 @@
 [2018-05-21 11:16:03] <suraeNoether> 5. MKEcoin Standards in general. We have lots of source material to start gathering these together, and I would like to get MOST of this done before next month; describing the current state of MKEcoin before BPs go live is probably going to be valuable later on.
 [2018-05-21 11:16:17] <sarang> 6. Payment channel infrastructure and prereqs
 [2018-05-21 11:16:26] <endogenic> ^
-[2018-05-21 11:16:31] <moneromooo> Ooooh yes please :)
+[2018-05-21 11:16:31] <MKEcoinmooo> Ooooh yes please :)
 [2018-05-21 11:17:05] <sarang> We have some good work on 6 so far, but no definite path forward atm
 [2018-05-21 11:17:46] <suraeNoether> 7. network simulation library for testing things like consensus algorithms and difficulty metrics. (I am off-and-on working with a friend at University of New Mexico on using population-ecology models to look at mining incentives, etc)
 [2018-05-21 11:18:00] <sarang> There's more work on the actual channel implementation that's being worked on w/ Purdue folks, but those drafts aren't released yet
@@ -158,7 +158,7 @@
 [2018-05-21 11:36:29] <rehrar> as well, anything that has been completed in the past year should go on the roadmap section of the website
 [2018-05-21 11:36:35] <sarang> agreed
 [2018-05-21 11:36:40] <rehrar> which desperately needs updating :P
-[2018-05-21 11:36:58] <rehrar> https://getmonero.org/resources/roadmap/
+[2018-05-21 11:36:58] <rehrar> https://getMKEcoin.org/resources/roadmap/
 [2018-05-21 11:36:59] <sarang> I'll need to run in about 5-10 min, btw
 [2018-05-21 11:37:01] <rehrar> we still in 2017
 [2018-05-21 11:37:26] <sarang> suraeNoether: can we talk formal roadmap in about an hour?
@@ -190,7 +190,7 @@
 [2018-05-21 11:40:27] <rehrar> ArticMine: by later I mean the profile shots
 [2018-05-21 11:40:37] <ArticMine> but one question that came up is verification times
 [2018-05-21 11:40:58] <ArticMine> This was a very valid point raised by smooth
-[2018-05-21 11:41:33] <moneromooo> performance_tests show you verification times for various cases. The only thing that I know will change it is Pippenger, if it gets coded.
+[2018-05-21 11:41:33] <MKEcoinmooo> performance_tests show you verification times for various cases. The only thing that I know will change it is Pippenger, if it gets coded.
 [2018-05-21 11:41:43] <suraeNoether> ArticMine: yeah, i wanted to do fees proportional to both expected ver time and space, but i feel like someone shot me down when i suggested ms-kB metric
 [2018-05-21 11:42:01] <suraeNoether> but i don't recall
 [2018-05-21 11:42:39] <ArticMine> It more an understanding on what verification times will be with current tech

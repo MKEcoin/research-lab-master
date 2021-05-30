@@ -56,7 +56,7 @@ if len(sys.argv) >= 2:
         seed = "unzip festival cease fences value anchor waking tomorrow ritual hookup guarded antics cease"
         sk = MiniNero.recoverSK(seed)
         print("sk", sk)
-        print("addr my MKEcoin", MiniNero.getAddr(sk))
+        print("addr my monero", MiniNero.getAddr(sk))
     if sys.argv[1] == "vk":
         #check making viewkey
         sk = "86c5616d91c7e7d96ec8220b15a5d441526ecc09f76347a40ab3a67373f8ba03"
@@ -121,7 +121,7 @@ if len(sys.argv) >= 2:
         print("H", H_ct)
         sr, Pr = PaperWallet.skpkGen() #receivers private/ public
         se, pe, ss1, ss2 = Ecdh.ecdhGen(Pr) #compute shared secret ss
-        digits = 32 #in practice it could will be 32 (from .0001 MKEcoin to ~400k MKEcoin) all other amounts can be represented by full 64 if necessary, otherwise you can use the sliding implementation of RingCT given below.
+        digits = 32 #in practice it could will be 32 (from .0001 monero to ~400k monero) all other amounts can be represented by full 64 if necessary, otherwise you can use the sliding implementation of RingCT given below.
         print("inputs")
         a = 10000
         Cia, L1a, s2a, sa, ska = RingCT.genRangeProof(10000, digits)

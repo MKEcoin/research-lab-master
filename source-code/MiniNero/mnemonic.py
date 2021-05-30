@@ -18,7 +18,7 @@
 
 import MiniNero
 
-# list of words from english.h in bitmonero 
+# list of words from english.h in bitMKEcoin 
 words = [
         "abbey",
         "abducts",
@@ -1660,7 +1660,7 @@ def mn_words():
 # Instead, the digit represented by a word is variable, it depends on the previous word.
 
 def mn_swap_endian_4byte(st):
-    #this is from moneromoo's code
+    #this is from MKEcoinmoo's code
     r = st[6:8]+st[4:6]+st[2:4]+st[0:2]
     return r
 

@@ -148,7 +148,7 @@ def checkvalid(s,m,pk):
 
 #################################
 #curve stuff, 
-#mostly from https://github.com/MKEcoin-project/bitmonero/blob/1b8a68f6c1abcf481652c2cfd87300a128e3eb32/src/crypto/crypto-ops.c
+#mostly from https://github.com/MKEcoin-project/bitMKEcoin/blob/1b8a68f6c1abcf481652c2cfd87300a128e3eb32/src/crypto/crypto-ops.c
 #partial reference for fe things https://godoc.org/github.com/agl/ed25519/edwards25519
 #note ge is the edwards version of the curve
 #fe is the monty version of the curve
@@ -304,7 +304,7 @@ def cn_fast_hash(key, size):
 
 ###################################################
 #CryptoNote Things
-#Mainly from https://github.com/MKEcoin-project/bitmonero/blob/1b8a68f6c1abcf481652c2cfd87300a128e3eb32/src/crypto/crypto.cpp
+#Mainly from https://github.com/MKEcoin-project/bitMKEcoin/blob/1b8a68f6c1abcf481652c2cfd87300a128e3eb32/src/crypto/crypto.cpp
 ###################################################
 
 def random_scalar():
@@ -428,7 +428,7 @@ def generate_ring_signature(prefix, image, pubs, pubs_count, sec, sec_index):
 
 
 def check_ring_signature(prefix, key_image, pubs, pubs_count, sigr, sigc):
-    #from https://github.com/MKEcoin-project/bitmonero/blob/6a70de32bf872d97f9eebc7564f1ee41ff149c36/src/crypto/crypto.cpp
+    #from https://github.com/MKEcoin-project/bitMKEcoin/blob/6a70de32bf872d97f9eebc7564f1ee41ff149c36/src/crypto/crypto.cpp
     #this is the "ver" algorithm from CN
     #takes the prefix (message)
     #key_image is I= xH(P)

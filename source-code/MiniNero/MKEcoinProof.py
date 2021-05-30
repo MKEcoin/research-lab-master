@@ -21,7 +21,7 @@ def cnHashOfFile(filepath):
     print(hex_data)
     return MiniNero.cn_fast_hash(hex_data)
 
-def moneroProofOfFile(fi):
+def MKEcoinProofOfFile(fi):
     s = cnHashOfFile(fi)
     #s = MiniNero.sc_reduce_key(s) #if you are testing, insert
     #an s below this line
@@ -42,9 +42,9 @@ def moneroProofOfFile(fi):
     return MiniNero.encode_addr(MiniNero.netVersion(), pk, pvk)
 
 if len(sys.argv) > 1:
-    #print("address to send to :", moneroProofOfFile(sys.argv[1]))
+    #print("address to send to :", MKEcoinProofOfFile(sys.argv[1]))
     cnHashOfFile(sys.argv[1])
 else:
     print("provide filename as argument")
-    print("example: MoneroProof.py Keccak.txt")
+    print("example: MKEcoinProof.py Keccak.txt")
 

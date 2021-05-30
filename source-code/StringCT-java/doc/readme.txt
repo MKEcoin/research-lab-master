@@ -9,9 +9,9 @@ To compile the JNI C library:
 cd <path to RuffCT-java/c directory>
 
 # replace <OS> with darwin on OSX, or with linux on Linux.
-gcc -fPIC -c how_monero_hodl_jni_CryptoOpsUtil.c crypto-ops.c crypto-ops-data.c -I /<path to jdk>/include/<OS>/ -I /<path to jdk>/include
+gcc -fPIC -c how_MKEcoin_hodl_jni_CryptoOpsUtil.c crypto-ops.c crypto-ops-data.c -I /<path to jdk>/include/<OS>/ -I /<path to jdk>/include
 
-gcc -dynamiclib -o libcryptoopsutil.jnilib how_monero_hodl_jni_CryptoOpsUtil.o crypto-ops.o crypto-ops-data.o -framework JavaVM
+gcc -dynamiclib -o libcryptoopsutil.jnilib how_MKEcoin_hodl_jni_CryptoOpsUtil.o crypto-ops.o crypto-ops-data.o -framework JavaVM
 
 When running Java code that uses this JNI library, provide the following command line argument:
 

@@ -9,7 +9,7 @@
 \begin{frontmatter}
 
 \begin{fmbox}
-\hfill\setlength{\fboxrule}{0px}\setlength{\fboxsep}{5px}\fbox{\includegraphics[width=2in]{moneroLogo.png}}
+\hfill\setlength{\fboxrule}{0px}\setlength{\fboxsep}{5px}\fbox{\includegraphics[width=2in]{MKEcoinLogo.png}}
 \dochead{Research bulletin \hfill MRL-0002}
 \title{Counterfeiting via Merkle Tree Exploits within Virtual Currencies Employing the CryptoNote Protocol}
 \date{12 September 2014}
@@ -142,7 +142,7 @@ In this code block, lines $47$ through $56$ perform the following tasks. We allo
 Note the stunning degree of technicality required to find and exploit this bug. Someone out there is very, very, very smart to not only find, but also to exploit, this deep bug. They know algorithms extremely well, and they appear to be malicious.
 
 \section{Fixes Applied}
-On 4 September 2014, the same date as the attack, the first solution to the exploit was publicly announced by Rafal Freeman from \texttt{Tigusoft.pl}\footnote{see MKEcoin commit \href{https://github.com/MKEcoin-project/bitmonero/commit/2ef0aee81d20c002ed50d6dec4baceee1ac40b44}{\nolinkurl{2ef0aee81d20c002ed50d6dec4baceee1ac40b44}}}. The solution is not a unique one, as the CryptoNote reference code implements a different solution\footnote{see CryptoNote commit \href{https://github.com/cryptonotefoundation/cryptonote/commit/6be8153a8bddf7be43aca1efb829ba719409787a}{\nolinkurl{6be8153a8bddf7be43aca1efb829ba719409787a}}}. The CryptoNote solution establishes a ``quick fix" in \texttt{src/crypto/tree-hash.c}, by using the ending condition \texttt{$8\cdot$sizeof(size\_t)}, causing their loop to iterate through all bits in \texttt{cnt}. However, without adequate checks on the size of \texttt{cnt}, it may be possible to choose a suitably large value to conduct the same attack. Furthermore, using magic numbers is, simply, a generally frowned-upon practice in computer science and cryptographic protocols. Then again, so is code obfuscation, and it is considered good form to comment your code, both of which the CryptoNote team is ostensibly guilty.
+On 4 September 2014, the same date as the attack, the first solution to the exploit was publicly announced by Rafal Freeman from \texttt{Tigusoft.pl}\footnote{see MKEcoin commit \href{https://github.com/MKEcoin-project/bitMKEcoin/commit/2ef0aee81d20c002ed50d6dec4baceee1ac40b44}{\nolinkurl{2ef0aee81d20c002ed50d6dec4baceee1ac40b44}}}. The solution is not a unique one, as the CryptoNote reference code implements a different solution\footnote{see CryptoNote commit \href{https://github.com/cryptonotefoundation/cryptonote/commit/6be8153a8bddf7be43aca1efb829ba719409787a}{\nolinkurl{6be8153a8bddf7be43aca1efb829ba719409787a}}}. The CryptoNote solution establishes a ``quick fix" in \texttt{src/crypto/tree-hash.c}, by using the ending condition \texttt{$8\cdot$sizeof(size\_t)}, causing their loop to iterate through all bits in \texttt{cnt}. However, without adequate checks on the size of \texttt{cnt}, it may be possible to choose a suitably large value to conduct the same attack. Furthermore, using magic numbers is, simply, a generally frowned-upon practice in computer science and cryptographic protocols. Then again, so is code obfuscation, and it is considered good form to comment your code, both of which the CryptoNote team is ostensibly guilty.
 
 The MKEcoin codebase, by contrast, establishes checks on the size of \texttt{cnt} and uses the following rounding algorithm:
 

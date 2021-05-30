@@ -1,9 +1,9 @@
-#include "how_monero_hodl_jni_CryptoOpsUtil.h"
+#include "how_MKEcoin_hodl_jni_CryptoOpsUtil.h"
 #include <unistd.h>
 #include <stdint.h>
 #include "crypto-ops.h"
 
-JNIEXPORT jbyteArray JNICALL Java_how_monero_hodl_jni_CryptoOpsUtil_scalarMult
+JNIEXPORT jbyteArray JNICALL Java_how_MKEcoin_hodl_jni_CryptoOpsUtil_scalarMult
   (JNIEnv *env, jclass cls, jbyteArray pointBytes, jbyteArray scalarBytes) {
 
   jbyte* pointBytesBuf = (*env)->GetByteArrayElements(env, pointBytes, NULL);
@@ -31,7 +31,7 @@ JNIEXPORT jbyteArray JNICALL Java_how_monero_hodl_jni_CryptoOpsUtil_scalarMult
 }
 
 //void ge_scalarmult_base(ge_p3 *h, const unsigned char *a) {
-JNIEXPORT jbyteArray JNICALL Java_how_monero_hodl_jni_CryptoOpsUtil_scalarMultBase
+JNIEXPORT jbyteArray JNICALL Java_how_MKEcoin_hodl_jni_CryptoOpsUtil_scalarMultBase
   (JNIEnv *env, jclass cls, jbyteArray scalarBytes) {
 
   jbyte* scalarBytesBuf = (*env)->GetByteArrayElements(env, scalarBytes, NULL);
@@ -59,7 +59,7 @@ JNIEXPORT jbyteArray JNICALL Java_how_monero_hodl_jni_CryptoOpsUtil_scalarMultBa
 
 //ge_double_scalarmult_base_vartime(ge_p2 *r, const unsigned char *a, const ge_p3 *A, const unsigned char *b)
 //r = a * A + b * B
-JNIEXPORT jbyteArray JNICALL Java_how_monero_hodl_jni_CryptoOpsUtil_doubleScalarMultBaseVartime
+JNIEXPORT jbyteArray JNICALL Java_how_MKEcoin_hodl_jni_CryptoOpsUtil_doubleScalarMultBaseVartime
   (JNIEnv *env, jclass cls, jbyteArray aScalarBytes, jbyteArray pointBytes, jbyteArray bScalarBytes) {
 
   jbyte* pointBytesBuf = (*env)->GetByteArrayElements(env, pointBytes, NULL);
