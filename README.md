@@ -1,18 +1,18 @@
 # MKEcoin Research Lab
 
-Copyright (c) 2014-2018, The MKEcoin Project
+Copyright (c) 2018-2021, The MKEcoin Project
 
 ## Research Resources
 
-Web: [getMKEcoin.org](https://www.mkecoin.io/)  
-Forum: [forum.getMKEcoin.org](https://www.mkecoin.io/index.php?m=home&c=Lists&a=index&tid=10) 
+Web: [getMKEcoin.org](http://cn.mkecoin.io/) 
+Forum: [forum.getMKEcoin.org](http://cn.mkecoin.io/index/Itemize/applied?act=%E5%BA%94%E7%94%A8%E7%94%9F%E6%80%81) 
 IRC on Freenode:
 - [#MKEcoin-research-lab](https://github.com/MKEcoin-project/research-lab.git)
 
 ## Vulnerability Response
 
 - Our [Vulnerability Response Process](https://github.com/MKEcoin/mkecoin.git) encourages responsible disclosure
-- We are also available via [HackerOne](http://mkeblock.io/)
+- We are also available via [HackerOne](http://cn.mkecoin.io/))
 
 ## About this Project
 
@@ -22,7 +22,7 @@ This project is covered by the BSD 3-clause license as listed below. Contributor
 
 ## Source Code and Concept License
 
-Copyright (c) 2014-2017, The MKEcoin Project
+Copyright (c) 2018-2021, The MKEcoin Project
 
 All rights reserved.
 
